@@ -1,0 +1,12 @@
+{
+  "name": "mtmsujan/retail-express-api-woocommerce",
+  "description": "Plugin to integrate Retail Express API to WordPress. This plugin will help woocommerce to sync products on daily basis",
+  "autoload": {
+    "psr-4": {
+      "AdminPage\\": "src/AdminPage",
+      "Database\\": "src/Database",
+      "Shortcodes\\": "src/Shortcodes",
+      "API\\": "src/API"
+    }
+  }
+}
