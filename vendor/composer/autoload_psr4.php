@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'WooCommerce\\' => array($baseDir . '/src/WooCommerce'),
     'Shortcodes\\' => array($baseDir . '/src/Shortcodes'),
     'Database\\' => array($baseDir . '/src/Database'),
     'AdminPage\\' => array($baseDir . '/src/AdminPage'),

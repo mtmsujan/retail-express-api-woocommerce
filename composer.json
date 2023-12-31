@@ -6,7 +6,8 @@
       "AdminPage\\": "src/AdminPage",
       "Database\\": "src/Database",
       "Shortcodes\\": "src/Shortcodes",
-      "API\\": "src/API"
+      "API\\": "src/API",
+      "WooCommerce\\": "src/WooCommerce"
     }
   }
 }

@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit8e31147f1302db4a6e594d13dbd658c4
 {
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'WooCommerce\\' => 12,
+        ),
         'S' => 
         array (
             'Shortcodes\\' => 11,
@@ -23,6 +27,10 @@ class ComposerStaticInit8e31147f1302db4a6e594d13dbd658c4
     );
 
     public static $prefixDirsPsr4 = array (
+        'WooCommerce\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/WooCommerce',
+        ),
         'Shortcodes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Shortcodes',

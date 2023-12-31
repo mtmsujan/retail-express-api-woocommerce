@@ -22,6 +22,9 @@ $menu_page = new AdminPage\MenuPage();
 $products = new Database\Products();
 $shortcodes = new Shortcodes\Shortcodes();
 $products_api = new API\Products();
+$customer_api = new API\CustomerAPI();
+$customer_sync = new WooCommerce\CustomerSync();
+
 
 
 // add a database table while plugin is activated
