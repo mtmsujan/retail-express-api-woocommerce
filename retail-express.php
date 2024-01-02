@@ -22,6 +22,7 @@ $menu_page = new AdminPage\MenuPage();
 $products = new Database\Products();
 $shortcodes = new Shortcodes\Shortcodes();
 $products_api = new API\Products();
+$products_api = new API\PriceAndStock();
 $customer_api = new API\CustomerAPI();
 $customer_sync = new WooCommerce\CustomerSync();
 
@@ -29,4 +30,6 @@ $customer_sync = new WooCommerce\CustomerSync();
 
 // add a database table while plugin is activated
 register_activation_hook(__FILE__, array('Database\Products', 'create_table'));
+register_activation_hook(__FILE__, array('Database\PriceAndStock', 'create_table'));
 register_deactivation_hook(__FILE__, array('Database\Products', 'remove_table'));
+register_deactivation_hook(__FILE__, array('Database\PriceAndStock', 'remove_table'));
